@@ -79,7 +79,7 @@ public class WorkorderController {
 		
 		if (result>0) {
 			//model.addAttribute("result","添加成功！");
-			session.setAttribute("result","添加成功！");
+			session.setAttribute("result","添加成功！2222");
 			return "redirect:/workorder/login.html";
 			//return "Workorderlist";
 		}else {
